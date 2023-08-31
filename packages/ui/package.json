@@ -1,0 +1,24 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "author": "yookidz <koallazon@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/ui.test.js"
+  },
+  "dependencies": {
+    "vue-demi": "^0.14.5"
+  },
+  "devDependencies": {
+    "vue": "^3.3.4"
+  }
+}

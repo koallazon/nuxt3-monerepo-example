@@ -1,0 +1,13 @@
+{
+  "name": "pnpm-mono",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -r dev",
+    "nuxt3:dev": "pnpm -F @pnpm-mono/nuxt3-demo",
+    "node:update": "pnpm env use --global lts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.47.0"
+  }
+}
