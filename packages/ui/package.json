@@ -1,24 +1,16 @@
 {
   "name": "ui",
   "version": "1.0.0",
-  "author": "yookidz <koallazon@gmail.com>",
-  "homepage": "",
-  "license": "ISC",
-  "main": "src/index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
+  "description": "",
+  "main": "index.ts",
   "scripts": {
-    "test": "node ./__tests__/ui.test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "vue-demi": "^0.14.5"
+    "@nuxt/kit": "^3.7.0",
+    "animate.css": "^4.1.1"
   },
-  "devDependencies": {
-    "vue": "^3.3.4"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
