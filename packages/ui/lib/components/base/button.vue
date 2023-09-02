@@ -1,7 +1,9 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import utils from 'utils'
+</script>
 
 <template>
-  <button type="button"><slot></slot></button>
+  <button type="button">{{ utils() }}<slot></slot></button>
 </template>
 
 <style scoped>

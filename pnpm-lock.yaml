@@ -46,6 +46,9 @@ importers:
       animate.css:
         specifier: ^4.1.1
         version: 4.1.1
+      utils:
+        specifier: workspace:../utils
+        version: link:../utils
 
   packages/utils: {}
 

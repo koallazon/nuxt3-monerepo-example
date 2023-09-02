@@ -3,6 +3,11 @@
   "private": true,
   "scripts": {
     "dev": "pnpm -r dev",
+    "build:app": "pnpm --filter './apps/**' prepack",
+    "build:package": "pnpm --filter './packages/**' prepack",
+    "build:package:stub": "pnpm --filter './packages/**' prepack --stub",
+    "install:ui-pc": "pnpm i ui --filter site-pc",
+    "install:ui-mobile": "pnpm i ui --filter site-mobile",
     "nuxt3:dev": "pnpm -F @pnpm-mono/nuxt3-demo",
     "node:update": "pnpm env use --global lts"
   },
