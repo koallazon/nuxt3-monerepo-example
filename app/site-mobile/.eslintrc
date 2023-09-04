@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "vue/component-tags-order": 0,
+    "jsonc/sort-keys": 0
+  }
+}

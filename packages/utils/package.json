@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "ltg <ltg@bbangyanetworks.com>",
-  "homepage": "",
   "license": "ISC",
   "main": "lib/utils.js",
   "directories": {

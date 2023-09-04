@@ -2,6 +2,9 @@
   "name": "ui",
   "version": "1.0.0",
   "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +13,5 @@
     "@nuxt/kit": "^3.7.0",
     "animate.css": "^4.1.1",
     "utils": "workspace:../utils"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }

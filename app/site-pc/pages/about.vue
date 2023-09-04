@@ -1,3 +1,5 @@
+<script setup lang="ts"></script>
+
 <template>
   <div>
     <h1>about</h1>
@@ -15,7 +17,5 @@
     </section>
   </div>
 </template>
-
-<script setup lang="ts"></script>
 
 <style scoped></style>
